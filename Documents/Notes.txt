@@ -1,0 +1,81 @@
+What is React ?
+1. React is a JavaScript library for building user interfaces. It is maintained by Facebook.
+2. Single Page Applications(SPAs).
+3. Component-based : React is based on components. Each component is a self-contained piece of code that represents a UI element
+4. Virtual DOM : React uses a virtual DOM to optimize rendering. The virtual DOM is a lightweight in-memory representation of the real DOM.
+5. JSX (JavaScript+ XML): React uses JSX, a syntax extension for JavaScript that allows you to write HTML-like code.
+
+Whatsapp Web , Meta , Uber , Netflix , AirBnb
+
+
+Install Node.js
+https://nodejs.org/en
+
+Online Compiler : https://onecompiler.com/react 
+
+######## Create React Applications ############
+1. Vite 
+ Super Fast , Smaller bundle Size , Works well with React , TypeScript , Tailwand 
+
+   npm create vite@latest my-app 
+   cd my-app-001
+   npm install
+   npm run dev
+
+2. Create React App (CRA) -- officially out dated 
+   Easy , build in 
+   npx create-react-app my-app-001
+
+3. Next.js
+   Server-side rendering
+   npx create-next-app@latest my-next-app
+
+
+What is State in React?
+1. State is like the memory or brain of a component - it holds the information that can change over time.
+
+For example : 
+React Component is a Smart Water Bottle with digital display 
+- State : Water Level , Temperature , Time , Alarm
+
+Video Game Scoreboard 
+- State : Player Names , Scores , Game Status , Time Remaining
+
+###### Class Component earlier before React 16. ######
+
+https://www.w3schools.com/react/react_class.asp
+
+Lifecycle Methods
+1. Mouting 
+- constructor
+- render 
+- componentDidMount
+2. Updating 
+- shouldComponentUpdate
+- componentDidMount
+3. Unmounting
+- componentWillUnmount
+
+
+
+
+
+Hooks introduced in React 16.8.. Functional Components with Hooks.
+
+Functional Component are plain JavaScript functions that return JSX(the HTML-like syntax) .. They are simpler, faster and now standard way to build React Components.
+
+function MyComponent(){
+   return <h1>Hello,React</h1>;
+}
+
+1. useState
+2. useEffect
+ useEffect(() => {
+   // Your code here 
+   return () => {
+     // Cleanup code here
+   }
+ }, [dependencies]);
+
+
+
