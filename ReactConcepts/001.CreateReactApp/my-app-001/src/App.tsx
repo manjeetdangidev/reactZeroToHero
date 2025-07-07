@@ -8,7 +8,10 @@ import UseState6_ShowHidePasswordToggle from './components/UseState6_ShowHidePas
 import UseState7_DynamicBackgroundColorPicker from './components/UseState7_DynamicBackgroundColorPicker.tsx'
 import UseEffect1_Timer from './components/UseEffect1_Timer.tsx'
 import UseEffect2_FetchDataFromApi from './components/UseEffect2_FetchDataFromApi.tsx'
-
+import UseRef1_FocusInput from './components/UseRef1_FocusInput.tsx'
+import UseRef2_StorePreviousState from './components/UseRef2_StorePreviousState.tsx'
+import { ThemeProvider,ThemedBox } from './components/UseContext1_GlobalData.tsx'
+import UseReducer1_counter from './components/UseReducer1_counter.tsx'
 function App() {
   return (
     <>
@@ -32,6 +35,18 @@ function App() {
       <UseEffect1_Timer/>
       <br /><br />
       <UseEffect2_FetchDataFromApi/>
+      <br /><br />
+      <UseRef1_FocusInput/>
+      <br /><br />
+      <UseRef2_StorePreviousState/>
+      <br /><br />
+      <ThemeProvider>
+        <ThemedBox />
+      </ThemeProvider>
+      <br /><br />
+      <UseReducer1_counter/>
+      <br /><br />
+      <br /> <br />
       <br /><br />
     </>
   )

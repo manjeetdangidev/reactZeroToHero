@@ -76,6 +76,11 @@ function MyComponent(){
      // Cleanup code here
    }
  }, [dependencies]);
+ 3. useRef 
+ 4. useContext
+ 5. useReducer -- useReducer function
+ 6. useCallback -- memoize a function
+ 7. useMemo -- memoize a value
 
 
 
