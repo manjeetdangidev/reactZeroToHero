@@ -12,6 +12,10 @@ import UseRef1_FocusInput from './components/UseRef1_FocusInput.tsx'
 import UseRef2_StorePreviousState from './components/UseRef2_StorePreviousState.tsx'
 import { ThemeProvider,ThemedBox } from './components/UseContext1_GlobalData.tsx'
 import UseReducer1_counter from './components/UseReducer1_counter.tsx'
+import UseCallBack1_PreventingFunctionRecreation from './components/UseCallBack1_PreventingFunctionRe-Creation.tsx'
+import UseCallBack2_OptimisingChildComponent from './components/UseCallBack2_OptimisingChildComponent.tsx'
+import UseMemo1_ExpensiveComponent from './components/UseMemo1_ExpensiveCalculation.tsx'
+import UseMemo2_FilterUsers from './components/UseMemo2_FilteringAList.tsx'
 function App() {
   return (
     <>
@@ -46,8 +50,15 @@ function App() {
       <br /><br />
       <UseReducer1_counter/>
       <br /><br />
+      <UseCallBack1_PreventingFunctionRecreation/>
       <br /> <br />
+      <UseCallBack2_OptimisingChildComponent/>
       <br /><br />
+      <UseMemo1_ExpensiveComponent/>
+      <br /><br />
+      <UseMemo2_FilterUsers/>
+      <br /><br />
+    
     </>
   )
 }
